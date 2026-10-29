@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "EquiposMVC/1.0.0": {
+        "runtime": {
+          "EquiposMVC.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EquiposMVC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

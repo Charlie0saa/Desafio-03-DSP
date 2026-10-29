@@ -1,0 +1,93 @@
+﻿@model IEnumerable<EquiposMVC.Models.EquipoViewModel>
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    ViewData["Title"] = "Gestión de Equipos";
+    var userRole = HttpContextAccessor.HttpContext?.Session.GetString("UserRole");
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h2>Catálogo de Equipos de Laboratorio</h2>
+    @if (userRole == "Admin")
+    {
+        <a asp-action="Create" class="btn btn-success">+ Nuevo Equipo</a>
+    }
+</div>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["ErrorMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+<form method="get" class="mb-3 d-flex align-items-center gap-2">
+    <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="soloDisponibles" name="soloDisponibles" value="true" @(ViewBag.SoloDisponibles == true ? "checked" : "") onchange="this.form.submit()">
+        <label class="form-check-label fw-bold" for="soloDisponibles">Mostrar solo disponibles</label>
+    </div>
+</form>
+
+<table class="table table-striped table-hover align-middle shadow-sm">
+    <thead class="table-dark">
+        <tr>
+            <th>Código</th>
+            <th>Nombre</th>
+            <th>Categoría</th>
+            <th>Estado</th>
+            <th class="text-center">Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (!Model.Any())
+        {
+            <tr>
+                <td colspan="5" class="text-center text-muted">No hay equipos registrados o disponibles.</td>
+            </tr>
+        }
+        else
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td><code>@item.CodigoInventario</code></td>
+                    <td class="fw-bold">@item.Nombre</td>
+                    <td>@item.CategoriaNombre</td>
+                    <td>
+                        @if (item.Estado == "Disponible")
+                        {
+                            <span class="badge bg-success">Disponible</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-warning text-dark">@item.Estado</span>
+                        }
+                    </td>
+                    <td class="text-center">
+                        @if (userRole == "Admin")
+                        {
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary">Editar</a>
+                            <form asp-action="Delete" asp-route-id="@item.Id" method="post" class="d-inline" onsubmit="return confirm('¿Confirma eliminar este equipo?');">
+                                <button type="submit" class="btn btn-sm btn-outline-danger">Eliminar</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <span class="text-muted small">Solo lectura</span>
+                        }
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

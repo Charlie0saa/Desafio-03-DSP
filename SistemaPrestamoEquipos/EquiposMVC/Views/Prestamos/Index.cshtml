@@ -1,0 +1,98 @@
+﻿@model IEnumerable<EquiposMVC.Models.PrestamoViewModel>
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    ViewData["Title"] = "Gestión de Préstamos";
+    var userRole = HttpContextAccessor.HttpContext?.Session.GetString("UserRole");
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h2>Registro de Préstamos</h2>
+    <a asp-action="Create" class="btn btn-primary">+ Solicitud de Préstamo</a>
+</div>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["ErrorMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+<table class="table table-striped table-hover align-middle shadow-sm">
+    <thead class="table-dark">
+        <tr>
+            <th>Equipo</th>
+            <th>Usuario</th>
+            <th>Fecha Préstamo</th>
+            <th>Vencimiento</th>
+            <th>Devolución</th>
+            <th class="text-center">Acción</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (!Model.Any())
+        {
+            <tr>
+                <td colspan="6" class="text-center text-muted">No hay préstamos registrados.</td>
+            </tr>
+        }
+        else
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td class="fw-bold">@item.EquipoNombre <br /><small class="text-muted"><code>@item.CodigoInventario</code></small></td>
+                    <td>@item.Username</td>
+                    <td>@item.FechaPrestamo.ToString("dd/MM/yyyy HH:mm")</td>
+                    <td>
+                        @if (item.FechaDevolucion == null && DateTime.Now > item.FechaVencimiento)
+                        {
+                            <span class="badge bg-danger">@item.FechaVencimiento.ToString("dd/MM/yyyy") (Vencido)</span>
+                        }
+                        else
+                        {
+                            <span>@item.FechaVencimiento.ToString("dd/MM/yyyy")</span>
+                        }
+                    </td>
+                    <td>
+                        @if (item.FechaDevolucion != null)
+                        {
+                            <span class="badge bg-success">@item.FechaDevolucion.Value.ToString("dd/MM/yyyy HH:mm")</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-warning text-dark">Pendiente</span>
+                        }
+                    </td>
+                    <td class="text-center">
+                        @if (item.FechaDevolucion == null && (userRole == "Admin" || userRole == "Docente"))
+                        {
+                            <form asp-action="Devolver" method="post" class="d-inline" onsubmit="return confirm('¿Confirma registrar la devolución de este equipo?');">
+                                <input type="hidden" name="id" value="@item.Id" />
+                                <button type="submit" class="btn btn-sm btn-outline-success">Registrar Devolución</button>
+                            </form>
+                        }
+                        else if (item.FechaDevolucion != null)
+                        {
+                            <span class="text-muted small">Finalizado</span>
+                        }
+                        else
+                        {
+                            <span class="text-muted small">En préstamo</span>
+                        }
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

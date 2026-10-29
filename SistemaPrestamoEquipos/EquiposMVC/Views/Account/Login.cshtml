@@ -1,0 +1,41 @@
+﻿@model EquiposMVC.Models.LoginViewModel
+@{
+    Layout = null;
+    ViewData["Title"] = "Iniciar Sesión";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Sistema de Equipos</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body class="bg-light d-flex align-items-center justify-content-center" style="min-height: 100vh;">
+    <div class="card shadow-sm p-4" style="max-width: 400px; width: 100%;">
+        <div class="text-center mb-4">
+            <h3 class="fw-bold text-primary">Préstamo de Equipos</h3>
+            <p class="text-muted small">Ingrese sus credenciales de acceso</p>
+        </div>
+
+        <form asp-action="Login" method="post">
+            <div asp-validation-summary="ModelOnly" class="alert alert-danger p-2 small"></div>
+
+            <div class="mb-3">
+                <label asp-for="Username" class="form-label">Usuario</label>
+                <input asp-for="Username" class="form-control" placeholder="Ej: admin, estudiante1" />
+                <span asp-validation-for="Username" class="text-danger small"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Password" class="form-label">Contraseña</label>
+                <input asp-for="Password" type="password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger small"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100 fw-bold">Iniciar Sesión</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\bin\Debug\net8.0\appsettings.json
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\bin\Debug\net8.0\EquiposMVC.staticwebassets.runtime.json
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\bin\Debug\net8.0\EquiposMVC.staticwebassets.endpoints.json
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\bin\Debug\net8.0\EquiposMVC.exe
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\bin\Debug\net8.0\EquiposMVC.deps.json
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\bin\Debug\net8.0\EquiposMVC.runtimeconfig.json
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\bin\Debug\net8.0\EquiposMVC.dll
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\bin\Debug\net8.0\EquiposMVC.pdb
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\EquiposMVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\EquiposMVC.AssemblyInfoInputs.cache
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\EquiposMVC.AssemblyInfo.cs
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\EquiposMVC.csproj.CoreCompileInputs.cache
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\EquiposMVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\EquiposMVC.RazorAssemblyInfo.cache
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\EquiposMVC.RazorAssemblyInfo.cs
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\EquiposMVC.sourcelink.json
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\scopedcss\bundle\EquiposMVC.styles.css
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\scopedcss\projectbundle\EquiposMVC.bundle.scp.css
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\swae.build.ex.cache
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\EquiposMVC.dll
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\refint\EquiposMVC.dll
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\EquiposMVC.pdb
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\EquiposMVC.genruntimeconfig.cache
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\ref\EquiposMVC.dll
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Laboratorios-DSP\TEO DSP\PROYECTO-FINAL\SEGUNDA ENTREGA-FINAL\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\EquiposMVC.csproj.Up2Date
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\bin\Debug\net8.0\EquiposMVC.staticwebassets.endpoints.json
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\bin\Debug\net8.0\appsettings.json
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\bin\Debug\net8.0\EquiposMVC.staticwebassets.runtime.json
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\bin\Debug\net8.0\EquiposMVC.exe
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\bin\Debug\net8.0\EquiposMVC.deps.json
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\bin\Debug\net8.0\EquiposMVC.runtimeconfig.json
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\bin\Debug\net8.0\EquiposMVC.dll
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\bin\Debug\net8.0\EquiposMVC.pdb
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\EquiposMVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\EquiposMVC.AssemblyInfoInputs.cache
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\EquiposMVC.AssemblyInfo.cs
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\EquiposMVC.csproj.CoreCompileInputs.cache
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\EquiposMVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\EquiposMVC.RazorAssemblyInfo.cache
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\EquiposMVC.RazorAssemblyInfo.cs
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\EquiposMVC.sourcelink.json
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\scopedcss\bundle\EquiposMVC.styles.css
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\scopedcss\projectbundle\EquiposMVC.bundle.scp.css
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\swae.build.ex.cache
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\EquiposMVC.dll
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\refint\EquiposMVC.dll
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\EquiposMVC.pdb
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\EquiposMVC.genruntimeconfig.cache
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\ref\EquiposMVC.dll
+C:\Users\Charlie._saa\Documents\CHARLIE\C-DSP\Desafio-03-DSP\SistemaPrestamoEquipos\EquiposMVC\obj\Debug\net8.0\EquiposMVC.csproj.Up2Date
