@@ -173,3 +173,5 @@ namespace EquiposAPI.Controllers
         }
     }
 }
+
+// Gestiona el registro, consulta y control de las solicitudes de préstamos de equipos //
