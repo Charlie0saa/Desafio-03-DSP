@@ -93,3 +93,5 @@ namespace EquiposAPI.Controllers
         }
     }
 }
+
+// Valida el token JWT y autentica las credenciales del usuario para permitir el acceso a los endpoints protegidos
