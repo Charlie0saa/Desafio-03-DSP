@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "EquiposAPI\\EquiposAPI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "EquiposMVC\\EquiposMVC.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -53,28 +53,46 @@ namespace EquiposAPI.Controllers
 
         // POST: api/Equipos
         [HttpPost]
-        [Authorize(Roles = "Admin")] // Caso 4: Estudiante intentando crear recibe 403
-        public async Task<ActionResult<EquipoDto>> PostEquipo(EquipoDto equipoDto)
+        [Authorize(Roles = "Admin")]
+        public async Task<ActionResult<EquipoDto>> CrearEquipo(CrearEquipoDto dto)
         {
-            if (await _context.Equipos.AnyAsync(e => e.CodigoInventario.ToLower() == equipoDto.CodigoInventario.ToLower()))
+            var existeCodigo = await _context.Equipos.AnyAsync(e => e.CodigoInventario == dto.CodigoInventario);
+            if (existeCodigo)
             {
-                return Conflict(new { mensaje = "El código de inventario ya existe." });
+                return BadRequest(new { mensaje = "El código de inventario ya existe." });
             }
 
-            var equipo = _mapper.Map<Equipo>(equipoDto);
-            _context.Equipos.Add(equipo);
-            await _context.SaveChangesAsync();
+            var equipo = _mapper.Map<Equipo>(dto);
 
-            var equipoCreado = await _context.Equipos.Include(e => e.Categoria).FirstOrDefaultAsync(e => e.Id == equipo.Id);
+            if (string.IsNullOrEmpty(equipo.Estado))
+            {
+                equipo.Estado = "Disponible";
+            }
+
+            try
+            {
+                _context.Equipos.Add(equipo);
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                var mensajeDetallado = ex.InnerException != null ? ex.InnerException.Message : ex.Message;
+                return BadRequest(new { mensaje = $"Error de SQL: {mensajeDetallado}" });
+            }
+
+            var equipoCreado = await _context.Equipos
+                .Include(e => e.Categoria)
+                .FirstOrDefaultAsync(e => e.Id == equipo.Id);
+
             return CreatedAtAction(nameof(GetEquipo), new { id = equipo.Id }, _mapper.Map<EquipoDto>(equipoCreado));
         }
 
         // PUT: api/Equipos/5
         [HttpPut("{id}")]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> PutEquipo(int id, EquipoDto equipoDto)
+        public async Task<IActionResult> PutEquipo(int id, ActualizarEquipoDto dto)
         {
-            if (id != equipoDto.Id)
+            if (id != dto.Id)
             {
                 return BadRequest(new { mensaje = "El ID no coincide." });
             }
@@ -85,18 +103,19 @@ namespace EquiposAPI.Controllers
                 return NotFound(new { mensaje = "Equipo no encontrado." });
             }
 
-            if (await _context.Equipos.AnyAsync(e => e.CodigoInventario.ToLower() == equipoDto.CodigoInventario.ToLower() && e.Id != id))
+            if (await _context.Equipos.AnyAsync(e => e.CodigoInventario.ToLower() == dto.CodigoInventario.ToLower() && e.Id != id))
             {
                 return Conflict(new { mensaje = "El código de inventario ya pertenece a otro equipo." });
             }
 
-            // Asignar el RowVersion enviado por el DTO para verificar concurrencia
-            _context.Entry(equipoBd).Property(e => e.RowVersion).OriginalValue = equipoDto.RowVersion;
+            // Asignar OriginalValue de RowVersion para control de concurrencia optimista
+            _context.Entry(equipoBd).Property(e => e.RowVersion).OriginalValue = dto.RowVersion;
 
-            equipoBd.Nombre = equipoDto.Nombre;
-            equipoBd.Descripcion = equipoDto.Descripcion;
-            equipoBd.CategoriaId = equipoDto.CategoriaId;
-            equipoBd.Estado = equipoDto.Estado;
+            equipoBd.Nombre = dto.Nombre;
+            equipoBd.CodigoInventario = dto.CodigoInventario;
+            equipoBd.Descripcion = dto.Descripcion;
+            equipoBd.CategoriaId = dto.CategoriaId;
+            equipoBd.Estado = dto.Estado;
 
             try
             {
@@ -104,7 +123,6 @@ namespace EquiposAPI.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                // Caso 9: Conflicto de concurrencia optimista -> 409 Conflict
                 return Conflict(new { mensaje = "El equipo fue modificado por otro usuario. Por favor recargue la página e intente de nuevo." });
             }
 
@@ -122,7 +140,6 @@ namespace EquiposAPI.Controllers
                 return NotFound(new { mensaje = "Equipo no encontrado." });
             }
 
-            // Caso 8: Eliminar equipo con préstamos históricos responde 409 Conflict
             var tienePrestamos = await _context.Prestamos.AnyAsync(p => p.EquipoId == id);
             if (tienePrestamos)
             {

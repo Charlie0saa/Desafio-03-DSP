@@ -27,6 +27,14 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Charlie._saa/Documents/CHARLIE/C-DSP/Desafio-03-DSP/SistemaPrestamoEquipos/EquiposMVC/Views/Equipos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Charlie._saa/Documents/CHARLIE/C-DSP/Desafio-03-DSP/SistemaPrestamoEquipos/EquiposMVC/Views/Equipos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Charlie._saa/Documents/CHARLIE/C-DSP/Desafio-03-DSP/SistemaPrestamoEquipos/EquiposMVC/Views/Equipos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBvc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -37,6 +45,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Charlie._saa/Documents/CHARLIE/C-DSP/Desafio-03-DSP/SistemaPrestamoEquipos/EquiposMVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Charlie._saa/Documents/CHARLIE/C-DSP/Desafio-03-DSP/SistemaPrestamoEquipos/EquiposMVC/Views/Prestamos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Charlie._saa/Documents/CHARLIE/C-DSP/Desafio-03-DSP/SistemaPrestamoEquipos/EquiposMVC/Views/Prestamos/Index.cshtml]

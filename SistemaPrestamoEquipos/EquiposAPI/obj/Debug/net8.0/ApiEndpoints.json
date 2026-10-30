@@ -188,15 +188,15 @@
   },
   {
     "ContainingType": "EquiposAPI.Controllers.EquiposController",
-    "Method": "PostEquipo",
+    "Method": "CrearEquipo",
     "RelativePath": "api/Equipos",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "equipoDto",
-        "Type": "EquiposAPI.DTOs.EquipoDto",
+        "Name": "dto",
+        "Type": "EquiposAPI.DTOs.CrearEquipoDto",
         "IsRequired": true
       }
     ],
@@ -252,8 +252,8 @@
         "IsRequired": true
       },
       {
-        "Name": "equipoDto",
-        "Type": "EquiposAPI.DTOs.EquipoDto",
+        "Name": "dto",
+        "Type": "EquiposAPI.DTOs.ActualizarEquipoDto",
         "IsRequired": true
       }
     ],

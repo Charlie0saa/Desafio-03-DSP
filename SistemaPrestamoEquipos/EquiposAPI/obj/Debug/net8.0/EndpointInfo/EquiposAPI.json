@@ -341,17 +341,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/EquipoDto"
+                "$ref": "#/components/schemas/CrearEquipoDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/EquipoDto"
+                "$ref": "#/components/schemas/CrearEquipoDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/EquipoDto"
+                "$ref": "#/components/schemas/CrearEquipoDto"
               }
             }
           }
@@ -438,17 +438,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/EquipoDto"
+                "$ref": "#/components/schemas/ActualizarEquipoDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/EquipoDto"
+                "$ref": "#/components/schemas/ActualizarEquipoDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/EquipoDto"
+                "$ref": "#/components/schemas/ActualizarEquipoDto"
               }
             }
           }
@@ -689,6 +689,50 @@
   },
   "components": {
     "schemas": {
+      "ActualizarEquipoDto": {
+        "required": [
+          "categoriaId",
+          "codigoInventario",
+          "estado",
+          "id",
+          "nombre",
+          "rowVersion"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "codigoInventario": {
+            "maxLength": 50,
+            "minLength": 0,
+            "type": "string"
+          },
+          "nombre": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "descripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "categoriaId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "estado": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "rowVersion": {
+            "type": "string",
+            "format": "byte"
+          }
+        },
+        "additionalProperties": false
+      },
       "AuthResponseDto": {
         "type": "object",
         "properties": {
@@ -729,6 +773,39 @@
         },
         "additionalProperties": false
       },
+      "CrearEquipoDto": {
+        "required": [
+          "categoriaId",
+          "codigoInventario",
+          "nombre"
+        ],
+        "type": "object",
+        "properties": {
+          "codigoInventario": {
+            "maxLength": 50,
+            "minLength": 0,
+            "type": "string"
+          },
+          "nombre": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "descripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "categoriaId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "estado": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "CrearPrestamoDto": {
         "required": [
           "equipoId",
@@ -757,11 +834,6 @@
         "additionalProperties": false
       },
       "EquipoDto": {
-        "required": [
-          "categoriaId",
-          "codigoInventario",
-          "nombre"
-        ],
         "type": "object",
         "properties": {
           "id": {
@@ -769,14 +841,12 @@
             "format": "int32"
           },
           "codigoInventario": {
-            "maxLength": 50,
-            "minLength": 0,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "nombre": {
-            "maxLength": 100,
-            "minLength": 0,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "descripcion": {
             "type": "string",
@@ -786,7 +856,7 @@
             "type": "integer",
             "format": "int32"
           },
-          "categoriaNombre": {
+          "nombreCategoria": {
             "type": "string",
             "nullable": true
           },

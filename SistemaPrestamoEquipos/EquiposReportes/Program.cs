@@ -1,6 +1,11 @@
+using Microsoft.EntityFrameworkCore;
+using EquiposReportes.Data;
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Configurar el DbContext con la cadena de conexión de la base de datos
+builder.Services.AddDbContext<ReportesDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();

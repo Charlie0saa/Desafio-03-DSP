@@ -26,6 +26,10 @@ namespace EquiposAPI.Data
                 .HasIndex(e => e.CodigoInventario)
                 .IsUnique();
 
+            modelBuilder.Entity<Equipo>()
+                .Property(e => e.RowVersion)
+                .IsRowVersion();
+
             modelBuilder.Entity<Usuario>()
                 .HasIndex(u => u.Username)
                 .IsUnique();

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EquiposReportes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3fe166cb7ef36af09a504374f35e517bd39ffcb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9e5e16d66668d48bc3b5b2d7b20049dec2358bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("EquiposReportes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EquiposReportes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

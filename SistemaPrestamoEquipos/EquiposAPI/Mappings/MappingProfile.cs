@@ -1,5 +1,4 @@
-﻿
-using AutoMapper;
+﻿using AutoMapper;
 using EquiposAPI.DTOs;
 using EquiposAPI.Models;
 
@@ -9,25 +8,17 @@ namespace EquiposAPI.Mappings
     {
         public MappingProfile()
         {
-            // Mapeos para Categoría
-            CreateMap<Categoria, CategoriaDto>().ReverseMap();
-
-            // Mapeos para Equipo
+            // Mapeos para Equipo con DTOs separados
             CreateMap<Equipo, EquipoDto>()
-                .ForMember(dest => dest.CategoriaNombre, opt => opt.MapFrom(src => src.Categoria != null ? src.Categoria.Nombre : string.Empty));
-            CreateMap<EquipoDto, Equipo>();
+                .ForMember(dest => dest.NombreCategoria, opt => opt.MapFrom(src => src.Categoria != null ? src.Categoria.Nombre : string.Empty));
 
-            // Mapeos para Usuario
-            CreateMap<Usuario, UsuarioDto>();
-            CreateMap<RegisterUserDto, Usuario>();
+            CreateMap<CrearEquipoDto, Equipo>();
+            CreateMap<ActualizarEquipoDto, Equipo>();
 
-            // Mapeos para Préstamo
-            CreateMap<Prestamo, PrestamoDto>()
-                .ForMember(dest => dest.EquipoNombre, opt => opt.MapFrom(src => src.Equipo != null ? src.Equipo.Nombre : string.Empty))
-                .ForMember(dest => dest.CodigoInventario, opt => opt.MapFrom(src => src.Equipo != null ? src.Equipo.CodigoInventario : string.Empty))
-                .ForMember(dest => dest.Username, opt => opt.MapFrom(src => src.Usuario != null ? src.Usuario.Username : string.Empty));
-
-            CreateMap<CrearPrestamoDto, Prestamo>();
+            // Mapeos para los demás recursos
+            CreateMap<Categoria, CategoriaDto>().ReverseMap();
+            CreateMap<Prestamo, PrestamoDto>().ReverseMap();
+            CreateMap<Usuario, UsuarioDto>().ReverseMap();
         }
     }
 }
