@@ -153,3 +153,5 @@ namespace EquiposAPI.Controllers
         }
     }
 }
+
+// Obtiene la lista completa de todos los equipos registrados en el sistema//
