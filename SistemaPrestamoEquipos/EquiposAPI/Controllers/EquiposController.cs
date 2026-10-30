@@ -154,4 +154,4 @@ namespace EquiposAPI.Controllers
     }
 }
 
-// Obtiene la lista completa de todos los equipos registrados en el sistema//
+// Gestiona las solicitudes HTTP para el registro, consulta, actualización y eliminación de los equipos del sistema // 
