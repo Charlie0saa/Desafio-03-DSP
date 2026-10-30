@@ -15,6 +15,9 @@ namespace EquiposAPI.Mappings
             CreateMap<CrearEquipoDto, Equipo>();
             CreateMap<ActualizarEquipoDto, Equipo>();
 
+            // Mapeo faltante para registrar préstamos
+            CreateMap<CrearPrestamoDto, Prestamo>();
+
             // Mapeos para los demás recursos
             CreateMap<Categoria, CategoriaDto>().ReverseMap();
             CreateMap<Prestamo, PrestamoDto>().ReverseMap();

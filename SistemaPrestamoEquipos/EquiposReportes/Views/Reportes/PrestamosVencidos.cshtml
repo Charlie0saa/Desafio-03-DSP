@@ -1,0 +1,37 @@
+﻿@model IEnumerable<EquiposReportes.ViewModels.PrestamoVencidoViewModel>
+
+@{
+    ViewData["Title"] = "Préstamos Vencidos";
+}
+
+<div class="container mt-4">
+    <h2>Préstamos Vencidos (Sin Devolver)</h2>
+    <hr />
+    <table class="table table-striped table-bordered">
+        <thead class="table-danger">
+            <tr>
+                <th>ID</th>
+                <th>Equipo</th>
+                <th>Código</th>
+                <th>Usuario</th>
+                <th>Fecha Préstamo</th>
+                <th>Fecha Vencimiento</th>
+                <th>Días de Atraso</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.PrestamoId</td>
+                    <td>@item.EquipoNombre</td>
+                    <td>@item.CodigoInventario</td>
+                    <td>@item.NombreUsuario</td>
+                    <td>@item.FechaPrestamo.ToString("yyyy-MM-dd")</td>
+                    <td>@item.FechaVencimiento.ToString("yyyy-MM-dd")</td>
+                    <td><span class="badge bg-danger">@item.DiasAtraso días</span></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

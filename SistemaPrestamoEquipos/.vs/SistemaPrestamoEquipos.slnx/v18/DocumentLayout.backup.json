@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Charlie._saa\\Documents\\CHARLIE\\C-DSP\\Desafio-03-DSP\\SistemaPrestamoEquipos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{982ED714-598A-185D-44BB-7EE38BF0ADD1}|EquiposReportes\\EquiposReportes.csproj|c:\\users\\charlie._saa\\documents\\charlie\\c-dsp\\desafio-03-dsp\\sistemaprestamoequipos\\equiposreportes\\controllers\\reportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{982ED714-598A-185D-44BB-7EE38BF0ADD1}|EquiposReportes\\EquiposReportes.csproj|solutionrelative:equiposreportes\\controllers\\reportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4BE1F4BF-DCCA-8946-F06B-5C4D8E23A978}|EquiposAPI\\EquiposAPI.csproj|c:\\users\\charlie._saa\\documents\\charlie\\c-dsp\\desafio-03-dsp\\sistemaprestamoequipos\\equiposapi\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BE1F4BF-DCCA-8946-F06B-5C4D8E23A978}|EquiposAPI\\EquiposAPI.csproj|solutionrelative:equiposapi\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{982ED714-598A-185D-44BB-7EE38BF0ADD1}|EquiposReportes\\EquiposReportes.csproj|c:\\users\\charlie._saa\\documents\\charlie\\c-dsp\\desafio-03-dsp\\sistemaprestamoequipos\\equiposreportes\\data\\reportesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{982ED714-598A-185D-44BB-7EE38BF0ADD1}|EquiposReportes\\EquiposReportes.csproj|solutionrelative:equiposreportes\\data\\reportesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{982ED714-598A-185D-44BB-7EE38BF0ADD1}|EquiposReportes\\EquiposReportes.csproj|c:\\users\\charlie._saa\\documents\\charlie\\c-dsp\\desafio-03-dsp\\sistemaprestamoequipos\\equiposreportes\\views\\reportes\\inventarioporcategoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{982ED714-598A-185D-44BB-7EE38BF0ADD1}|EquiposReportes\\EquiposReportes.csproj|solutionrelative:equiposreportes\\views\\reportes\\inventarioporcategoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982ED714-598A-185D-44BB-7EE38BF0ADD1}|EquiposReportes\\EquiposReportes.csproj|c:\\users\\charlie._saa\\documents\\charlie\\c-dsp\\desafio-03-dsp\\sistemaprestamoequipos\\equiposreportes\\views\\reportes\\prestamosvencidos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{982ED714-598A-185D-44BB-7EE38BF0ADD1}|EquiposReportes\\EquiposReportes.csproj|solutionrelative:equiposreportes\\views\\reportes\\prestamosvencidos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982ED714-598A-185D-44BB-7EE38BF0ADD1}|EquiposReportes\\EquiposReportes.csproj|c:\\users\\charlie._saa\\documents\\charlie\\c-dsp\\desafio-03-dsp\\sistemaprestamoequipos\\equiposreportes\\views\\reportes\\topequipos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{982ED714-598A-185D-44BB-7EE38BF0ADD1}|EquiposReportes\\EquiposReportes.csproj|solutionrelative:equiposreportes\\views\\reportes\\topequipos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982ED714-598A-185D-44BB-7EE38BF0ADD1}|EquiposReportes\\EquiposReportes.csproj|c:\\users\\charlie._saa\\documents\\charlie\\c-dsp\\desafio-03-dsp\\sistemaprestamoequipos\\equiposreportes\\views\\reportes\\historialusuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{982ED714-598A-185D-44BB-7EE38BF0ADD1}|EquiposReportes\\EquiposReportes.csproj|solutionrelative:equiposreportes\\views\\reportes\\historialusuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B61C10E-0C24-B0F8-C3E1-6026130B32E7}|EquiposMVC\\EquiposMVC.csproj|c:\\users\\charlie._saa\\documents\\charlie\\c-dsp\\desafio-03-dsp\\sistemaprestamoequipos\\equiposmvc\\models\\viewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B61C10E-0C24-B0F8-C3E1-6026130B32E7}|EquiposMVC\\EquiposMVC.csproj|solutionrelative:equiposmvc\\models\\viewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,37 +34,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReportesController.cs",
-              "DocumentMoniker": "C:\\Users\\Charlie._saa\\Documents\\CHARLIE\\C-DSP\\Desafio-03-DSP\\SistemaPrestamoEquipos\\EquiposReportes\\Controllers\\ReportesController.cs",
-              "RelativeDocumentMoniker": "EquiposReportes\\Controllers\\ReportesController.cs",
-              "ToolTip": "C:\\Users\\Charlie._saa\\Documents\\CHARLIE\\C-DSP\\Desafio-03-DSP\\SistemaPrestamoEquipos\\EquiposReportes\\Controllers\\ReportesController.cs",
-              "RelativeToolTip": "EquiposReportes\\Controllers\\ReportesController.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAswAkAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-30T04:49:58.095Z",
+              "DocumentIndex": 4,
+              "Title": "HistorialUsuario.cshtml",
+              "DocumentMoniker": "C:\\Users\\Charlie._saa\\Documents\\CHARLIE\\C-DSP\\Desafio-03-DSP\\SistemaPrestamoEquipos\\EquiposReportes\\Views\\Reportes\\HistorialUsuario.cshtml",
+              "RelativeDocumentMoniker": "EquiposReportes\\Views\\Reportes\\HistorialUsuario.cshtml",
+              "ToolTip": "C:\\Users\\Charlie._saa\\Documents\\CHARLIE\\C-DSP\\Desafio-03-DSP\\SistemaPrestamoEquipos\\EquiposReportes\\Views\\Reportes\\HistorialUsuario.cshtml",
+              "RelativeToolTip": "EquiposReportes\\Views\\Reportes\\HistorialUsuario.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-30T06:18:31.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TopEquipos.cshtml",
+              "DocumentMoniker": "C:\\Users\\Charlie._saa\\Documents\\CHARLIE\\C-DSP\\Desafio-03-DSP\\SistemaPrestamoEquipos\\EquiposReportes\\Views\\Reportes\\TopEquipos.cshtml",
+              "RelativeDocumentMoniker": "EquiposReportes\\Views\\Reportes\\TopEquipos.cshtml",
+              "ToolTip": "C:\\Users\\Charlie._saa\\Documents\\CHARLIE\\C-DSP\\Desafio-03-DSP\\SistemaPrestamoEquipos\\EquiposReportes\\Views\\Reportes\\TopEquipos.cshtml",
+              "RelativeToolTip": "EquiposReportes\\Views\\Reportes\\TopEquipos.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAB8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-30T06:17:07.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PrestamosVencidos.cshtml",
+              "DocumentMoniker": "C:\\Users\\Charlie._saa\\Documents\\CHARLIE\\C-DSP\\Desafio-03-DSP\\SistemaPrestamoEquipos\\EquiposReportes\\Views\\Reportes\\PrestamosVencidos.cshtml",
+              "RelativeDocumentMoniker": "EquiposReportes\\Views\\Reportes\\PrestamosVencidos.cshtml",
+              "ToolTip": "C:\\Users\\Charlie._saa\\Documents\\CHARLIE\\C-DSP\\Desafio-03-DSP\\SistemaPrestamoEquipos\\EquiposReportes\\Views\\Reportes\\PrestamosVencidos.cshtml",
+              "RelativeToolTip": "EquiposReportes\\Views\\Reportes\\PrestamosVencidos.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwBQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-30T06:16:06.861Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ReportesDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Charlie._saa\\Documents\\CHARLIE\\C-DSP\\Desafio-03-DSP\\SistemaPrestamoEquipos\\EquiposReportes\\Data\\ReportesDbContext.cs",
-              "RelativeDocumentMoniker": "EquiposReportes\\Data\\ReportesDbContext.cs",
-              "ToolTip": "C:\\Users\\Charlie._saa\\Documents\\CHARLIE\\C-DSP\\Desafio-03-DSP\\SistemaPrestamoEquipos\\EquiposReportes\\Data\\ReportesDbContext.cs",
-              "RelativeToolTip": "EquiposReportes\\Data\\ReportesDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-30T04:25:09.69Z",
+              "Title": "InventarioPorCategoria.cshtml",
+              "DocumentMoniker": "C:\\Users\\Charlie._saa\\Documents\\CHARLIE\\C-DSP\\Desafio-03-DSP\\SistemaPrestamoEquipos\\EquiposReportes\\Views\\Reportes\\InventarioPorCategoria.cshtml",
+              "RelativeDocumentMoniker": "EquiposReportes\\Views\\Reportes\\InventarioPorCategoria.cshtml",
+              "ToolTip": "C:\\Users\\Charlie._saa\\Documents\\CHARLIE\\C-DSP\\Desafio-03-DSP\\SistemaPrestamoEquipos\\EquiposReportes\\Views\\Reportes\\InventarioPorCategoria.cshtml",
+              "RelativeToolTip": "EquiposReportes\\Views\\Reportes\\InventarioPorCategoria.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-30T06:15:13.636Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Charlie._saa\\Documents\\CHARLIE\\C-DSP\\Desafio-03-DSP\\SistemaPrestamoEquipos\\EquiposAPI\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "EquiposAPI\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Charlie._saa\\Documents\\CHARLIE\\C-DSP\\Desafio-03-DSP\\SistemaPrestamoEquipos\\EquiposAPI\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "EquiposAPI\\Mappings\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T05:47:11.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\Charlie._saa\\Documents\\CHARLIE\\C-DSP\\Desafio-03-DSP\\SistemaPrestamoEquipos\\EquiposMVC\\Models\\ViewModels.cs",
+              "RelativeDocumentMoniker": "EquiposMVC\\Models\\ViewModels.cs",
+              "ToolTip": "C:\\Users\\Charlie._saa\\Documents\\CHARLIE\\C-DSP\\Desafio-03-DSP\\SistemaPrestamoEquipos\\EquiposMVC\\Models\\ViewModels.cs",
+              "RelativeToolTip": "EquiposMVC\\Models\\ViewModels.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAiwEoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T05:32:18.421Z",
+              "EditorCaption": ""
             }
           ]
         }

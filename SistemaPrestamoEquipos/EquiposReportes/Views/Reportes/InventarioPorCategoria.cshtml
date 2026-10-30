@@ -1,0 +1,29 @@
+﻿@model IEnumerable<EquiposReportes.ViewModels.InventarioPorCategoriaViewModel>
+
+@{
+    ViewData["Title"] = "Inventario por Categoría";
+}
+
+<div class="container mt-4">
+    <h2>Inventario por Categoría y Estado</h2>
+    <hr />
+    <table class="table table-striped table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Categoría</th>
+                <th>Estado</th>
+                <th>Cantidad</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.CategoriaNombre</td>
+                    <td>@item.Estado</td>
+                    <td>@item.Cantidad</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
